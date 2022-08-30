@@ -1,5 +1,5 @@
 class EventLocator:
-    COIN = 'article div.card_body h5 a'
-    NAME = 'article div.card_body a.link-detail h5.card_title'
-    DATE = 'article div.card_body a.link-detail h5.card_date'
-    DESC = 'article div.card_body div.box p.card_description'
+    COIN = 'article div.card__body h5 a'
+    NAME = 'article div.card div.card__body a.link-detail h5.card__title'
+    DATE = 'article div.card div.card__body a.link-detail h5.card__date'
+    DESC = 'article div.card__body div.box p.card__description'
